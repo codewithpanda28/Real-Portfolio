@@ -20,7 +20,7 @@ import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 
 const category = {
 	1: "Web Development",
-	9: "Other",
+	
 }
 
 export default function Page() {
@@ -176,18 +176,10 @@ export default function Page() {
 							type: "spring",
 						}}>
 						<h2 className="text-2xl font-bold tracking-wider mb-3">
-							Generative Trivia
+						Task & Note Management Apps
 						</h2>
 						<p className="text-gray-600 text-justify title text-lg">
-							A generative trivia website built with Next.js,
-							Firebase, NextAuth, Google OAuth, and TypeScript.
-							Users can generate trivia questions for predefined
-							school subjects and answer them with a unique
-							interactive input style. The application supports
-							user authentication with Google and stores data in
-							Firestore. You can see the source code of this
-							project on my github account or preview the project
-							by clicking the button below.
+						A suite of productivity <b> web applications built with Next.js,</b> designed to simplify task and note management. The <b> To-Do Web App enables users to create, update, and delete tasks,</b> while the <b> Note Web App allows users to efficiently manage personal notes with features for adding, editing, and deleting content.</b> Both apps are fully responsive, ensuring seamless functionality across devices. <b> Developed with modern web technologies and deployed on Vercel,</b> these projects highlight expertise in creating dynamic and user-friendly applications.
 						</p>{" "}
 						<div className="mt-3">
 							<Button variation="primary">
@@ -195,7 +187,7 @@ export default function Page() {
 							</Button>
 							<Button variation="secondary">
 								<a
-									href="https://generative-trivia.vercel.app/"
+									href="https://next-tool-two.vercel.app/"
 									target="_blank"
 									rel="noopener noreferrer">
 									Preview
