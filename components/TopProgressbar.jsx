@@ -1,5 +1,5 @@
 "use client"
-import Router from "next/router";
+import { useRouter } from "next/navigation";
 import NProgress from "nprogress";
 
 let timer;
@@ -30,14 +30,15 @@ function stop() {
 }
 
 function routeChangeStart() {
-	if (window.location.pathname !== Router.pathname) {
+	if (window.location.pathname !== window.location.pathname) {
 		load();
 	}
 }
 
-Router.events.on("routeChangeStart", routeChangeStart);
-Router.events.on("routeChangeComplete", stop);
-Router.events.on("routeChangeError", stop);
+const router = useRouter();
+router.events.on("routeChangeStart", routeChangeStart);
+router.events.on("routeChangeComplete", stop);
+router.events.on("routeChangeError", stop);
 
 const originalFetch = window.fetch;
 window.fetch = async function (...args) {
