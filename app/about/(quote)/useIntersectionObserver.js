@@ -2,31 +2,32 @@
 import { useEffect, useState, useRef } from "react";
 
 export function useIntersectionObserver() {
-	const [isIntersecting, setIsIntersecting] = useState(false);
-	const ref = useRef(null);
+  const [isIntersecting, setIsIntersecting] = useState(false);
+  const ref = useRef(null);
 
-	useEffect(() => {
-		const observer = new IntersectionObserver(
-			([entry]) => {
-				setIsIntersecting(entry.isIntersecting);
-			},
-			{
-				root: null,
-				rootMargin: "0px",
-				threshold: 0.1,
-			}
-		);
+  useEffect(() => {
+    const element = ref.current;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsIntersecting(entry.isIntersecting);
+      },
+      {
+        root: null,
+        rootMargin: "0px", 
+        threshold: 0.1,
+      }
+    );
 
-		if (ref.current) {
-			observer.observe(ref.current);
-		}
+    if (element) {
+      observer.observe(element);
+    }
 
-		return () => {
-			if (ref.current) {
-				observer.unobserve(ref.current);
-			}
-		};
-	}, []);
+    return () => {
+      if (element) {
+        observer.unobserve(element);
+      }
+    };
+  }, []);
 
-	return [ref, isIntersecting];
+  return [ref, isIntersecting];
 }

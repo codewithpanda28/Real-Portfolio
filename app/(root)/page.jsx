@@ -84,7 +84,7 @@ const MyPage = () => {
 											delay: 0.4,
 											type: "spring",
 										}}>
-									I'm a Junior Frontend Developer specializing in Web Development with skills in React, Next.js, and CSS. I’m passionate about UX/UI Design and always eager to learn new technologies and explore new opportunities.
+									I am a Junior Frontend Developer specializing in Web Development with skills in React, Next.js, and CSS. I am passionate about UX/UI Design and always eager to learn new technologies and explore new opportunities.
 									</motion.p>
 									<motion.div
 										className="buttons flex flex-row justify-center items-center space-x-4 mt-10"

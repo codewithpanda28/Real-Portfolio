@@ -177,17 +177,16 @@ export default function Page() {
 						<p className="text-gray-600 text-justify title text-lg">
 							Hey there,<span className="text-black font-medium">
 								{" "}
-								I&rsquo;m Junior Frontend Developer
+								I am Junior Frontend Developer
 							</span>{" "} ,specializing in Web Development,
 							with expertise in 	<span className="text-black font-medium">
 								{" "}
 								React, Next.js,	</span>{" "} 
 								 and <span className="text-black font-medium">
-								 {" "} CSS 	</span>{" "} 
+								 CSS 	</span> 
 						. I have a strong passion for UX/UI Design and am always eager to learn new technologies and stay updated with industry trends.
 						
-							I'm open
-							 to new challenges and exciting opportunities to grow and contribute as a developer.
+							I am open to new challenges and exciting opportunities to grow and contribute as a developer.
 						</p>
 						{/* <Card /> */}
 					</motion.div>
