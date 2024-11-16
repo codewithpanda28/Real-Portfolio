@@ -14,10 +14,10 @@ export const projects = [
 		category: 1,
 	},
 	{
-		title: "Saku Senyum",
-		desc: "A website for UMKM sales management. This project is a client project that I created as a Fullstack Developer.",
+		title: "AI-Driven Food Website with Next.js",
+		desc: "A dynamic food website built using Next.js and ChatGPT, deployed on Vercel. It combines modern design, AI features, and seamless performance for food lovers.",
 		year: "2024",
-		tech: "NextJS, Typescript, Tailwind CSS, Shadcn UI, Prisma, MySQL",
+		tech: "NextJS, Tailwind CSS, Shadcn UI, ChatGPT, Lucide",
 		bg: SakuSenyum,
 		slug: "saku-senyum",
 		category: 1,

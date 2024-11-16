@@ -20,6 +20,28 @@
         "ChatGPT"
       ], 
       "slug": "trivia"
+    },
+    {
+      "title": "AI-Driven Food Website with Next.js",
+      "desc": [
+     "This dynamic food website combines Next.js and ChatGPT for an engaging and user-friendly experience. With fast performance, AI-powered features like personalized recipes, and a responsive design, it offers seamless navigation and interactivity. Deployed on Vercel, it ensures global accessibility and scalability, making it a standout project in modern web development."
+      ],
+      "year": "2024",
+      "preview": "https://khana-site-nzqh.vercel.app/",
+      "code": "https://github.com/codewithpanda28/Khana-Site.git",
+      "images": [
+        "/projects/saku-senyum/saku-senyum1.png",
+        "/projects/saku-senyum/saku-senyum2.png",
+        "/projects/saku-senyum/saku-senyum3.png"
+      ],
+      "tech": [
+        "NextJS",
+        "Shadcn UI",
+        "Lucide-React",
+        "Tailwind CSS",
+        "ChatGPT"
+      ], 
+      "slug": "trivia"
     }
   ]
 }
