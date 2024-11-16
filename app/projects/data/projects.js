@@ -1,6 +1,6 @@
 
 import Trivia from "@/public/projects/main-project/trivia.png";
-import SakuSenyum from "@/public/projects/main-project/saku-senyum.png";
+import SakuSenyum from "@/public/projects/main-project/saku-senyum1.png";
 
 
 export const projects = [
@@ -19,7 +19,7 @@ export const projects = [
 		year: "2024",
 		tech: "NextJS, Tailwind CSS, Shadcn UI, ChatGPT, Lucide",
 		bg: SakuSenyum,
-		slug: "saku-senyum",
+		slug: "trivia",
 		category: 1,
 	}
 ];
