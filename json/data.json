@@ -24,7 +24,7 @@
     {
       "title": "AI-Driven Food Website with Next.js",
       "desc": [
-     "This dynamic food website combines Next.js and ChatGPT for an engaging and user-friendly experience. With fast performance, AI-powered features like personalized recipes, and a responsive design, it offers seamless navigation and interactivity. Deployed on Vercel, it ensures global accessibility and scalability, making it a standout project in modern web development."
+     "This food website is a modern platform built using Next.js, ShadCN for sleek components, Lucide for icons, and ChatGPT for AI-driven functionality. Next.js ensures fast performance and smooth navigation, while ShadCN and Lucide provide a polished and visually appealing design. ChatGPT adds intelligence with features like personalized food suggestions and dynamic recipe ideas, enhancing user interactivity. Deployed on Vercel, the site is globally accessible, fast, and scalable, ensuring a seamless experience for all users. Fully responsive and optimized for various devices, the website incorporates intuitive features like search, filtering, and clickable elements, showcasing expertise in modern web development."
       ],
       "year": "2024",
       "preview": "https://khana-site-nzqh.vercel.app/",
