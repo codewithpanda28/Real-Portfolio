@@ -14,6 +14,13 @@ const projects = [
 		github: "https://github.com/codewithpanda28/Next-Tool",
 		preview: "https://next-tool-two.vercel.app/",
 	},
+	{
+		year: "2024",
+		title: "AI-Driven Food Website with Next.js",
+		tech: "NextJS, ChatGPT, TailwindCSS, ShadcnUI, Lucide",
+		github: "https://github.com/codewithpanda28/Khana-Site.git",
+		preview: "https://khana-site-nzqh.vercel.app/",
+	},
 
 ];
 export default function Page () {
