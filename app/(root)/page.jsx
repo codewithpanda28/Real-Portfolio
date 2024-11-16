@@ -51,7 +51,7 @@ const MyPage = () => {
 												width={500}
 												height={500}
 												className="rounded-full w-full h-full object-cover "
-												alt="Alvalens"
+												alt="Akash"
 												placeholder="blur"
 											/>
 										</div>
@@ -123,7 +123,7 @@ const MyPage = () => {
 											width={400}
 											height={550}
 											placeholder="blur"
-											alt="Alvalens"
+											alt="Akash"
 											className="rounded-full w-full h-full object-cover"
 										/>
 									</div>
@@ -155,7 +155,7 @@ const MyPage = () => {
 											src={MeAbout}
 											layout="fill"
 											className="object-cover"
-											alt="Alvalens"
+											alt="Akash"
 											placeholder="blur"
 										/>
 									</motion.div>
@@ -224,7 +224,7 @@ const MyPage = () => {
 											src={ProjectAll}
 											layout="fill"
 											className="object-cover"
-											alt="Alvalens Setup"
+											alt="Akash Setup"
 											placeholder="blur"
 										/>
 									</motion.div>
@@ -297,7 +297,7 @@ const MyPage = () => {
 											src={Setup}
 											layout="fill"
 											className="object-cover"
-											alt="Alvalens Setup"
+											alt="Akash Setup"
 											placeholder="blur"
 										/>
 									</motion.div>
@@ -335,14 +335,14 @@ const MyPage = () => {
 											delay: 0.3,
 											type: "spring",
 										}}>
-										<a href="mailto:Alvalen.shafel04@gmail.com?subject=Hello&body=Hello Alvalens,">
+										<a href="mailto:Alvalen.shafel04@gmail.com?subject=Hello&body=Hello Akash,">
 											codewithpanda28@gmail.com
 										</a>
 									</motion.p>
 									{/* icons */}
 									<div className="flex justify-center items-center space-x-4">
 										<motion.a
-											href="mailto:Alvalen.shafel04@gmail.com?subject=Hello&body=Hello Alvalens,"
+											href="mailto:Alvalen.shafel04@gmail.com?subject=Hello&body=Hello Akash,"
 											className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
 											initial={{ y: 40, opacity: 0 }}
 											whileInView={{ y: 0, opacity: 1 }}
