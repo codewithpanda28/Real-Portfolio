@@ -7,49 +7,53 @@ export default function Experience() {
 					<div className="font-medium text-lg">2023 - Present</div>
 					<div>
 						<h3 className="font-semibold text-xl text-black">
-							PT Hafdzamedia Teknologi Aplikasi
+						AI-Driven Food Website with Next.jsi
 						</h3>
 						<h4 className=" font-light text-md mb-4">
-							Fullstack Web Developer | Part-time
+						Technologies Used: Next.js, ChatGPT, ShadCN
 						</h4>
 						<p className="text-justify">
-							Responsible for building and maintaining scalable
-							web applications using the latest technologies.
-							Collaborated with cross-functional teams to deliver
-							high-quality solutions that meet business
-							requirements.
+						▪️Next.js – Fast, SEO-friendly, and smooth navigation.<br/>
+						▪️ShadCN – Sleek, reusable UI components.<br/>
+						▪️Lucide Icons – Modern and lightweight visuals.<br/> 
+						▪️ChatGPT – AI-powered personalized suggestions.<br/>
+						▪️Vercel – Global accessibility and scalability.<br/> 
+						▪️Responsive – Optimized for all devices
+
 						</p>
 						<div className="flex flex-wrap gap-2 mt-4 text-sm">
 							<div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
-								React
+								Next.JS
 							</div>
 							<div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
-								Next.js
+								ChatGPT
 							</div>
 							<div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
-								Laravel
+								ShadCN
 							</div>
 							<div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
-								MySql
+								Vercel
 							</div>
 						</div>
 					</div>
 				</div>
+
 				<div className="grid gap-4 relative">
 					<div className="aspect-square w-5 bg-black rounded-full absolute left-0 translate-x-[-29.5px] z-10" />
 					<div className="font-medium text-lg">2024 - Present</div>
 					<div>
 						<h3 className="font-semibold text-xl text-black">
-							Outlier
+						To-Do Web App & Note Web App
 						</h3>
 						<h4 className=" font-light text-md mb-4">
-							AI Trainer | Freelance
+						Technologies Used: Next.js, ChatGPT, Tailwind CSS
 						</h4>
 						<p className="text-justify">
-							Crafted and refined chatbot prompts using prompt
-							engineering and RLHF techniques to improve the AI
-							responses in English and Indonesian, leading to more
-							accurate and contextually relevant interactions.
+						▪️To-Do Web App: Task management with CRUD (Create, Read, Update, Delete) functionality.
+						<br/>▪️Note Web App: Create, edit, and delete notes with a simple and clean UI.<br/>
+						▪️Deployment: Hosted on Vercel, ensuring high availability and fast performance. <br/>
+						▪️AI Integration: Utilized ChatGPT to enhance functionality with intelligent suggestions.
+
 						</p>
 
 						<div className="flex flex-wrap gap-2 mt-4 text-sm">
@@ -65,7 +69,7 @@ export default function Experience() {
 						</div>
 					</div>
 				</div>
-				<div className="grid gap-4 relative">
+				{/* <div className="grid gap-4 relative">
 					<div className="aspect-square w-5 bg-black rounded-full absolute left-0 translate-x-[-29.5px] z-10" />
 					<div className="font-medium text-lg">2023 - Present</div>
 					<div>
@@ -98,7 +102,7 @@ export default function Experience() {
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> */}
 			</div>
 		</section>
 	);
