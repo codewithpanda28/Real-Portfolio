@@ -18,15 +18,17 @@ const Chat = () => {
 			I.iticks.call = function (a, b) {
 				I.iticks.queue.push([a, b]);
 			};
-		})(
+		})
+		(
 			window,
 			"https://cdn-v1.intelliticks.com/prod/common",
 			document,
 			"script",
 			"https://app.intelliticks.com",
-			"u3cWw3sDpdKexqXCY_c",
+			"J4fDHQqfA2bsFcfJq_c",
 			{}
 		);
+	
 	}, []);
 
 	return null;
