@@ -4,7 +4,40 @@ export default function Experience() {
 			<div className="relative after:absolute after:inset-y-2 after:w-1 after:bg-gray-700 after:left-[-4px] md:after:left-1 lg:after:left-2 xl:after:left-3 grid gap-8 md:gap-12 pl-6 md:pl-8">
 				<div className="grid gap-4 relative">
 					<div className="aspect-square w-5 bg-black rounded-full absolute left-0 translate-x-[-29.5px] z-10" />
-					<div className="font-medium text-lg">2023 - Present</div>
+					<div className="font-medium text-lg">2024 - Present</div>
+					<div>
+						<h3 className="font-semibold text-xl text-black">
+						IIMW 2025: Next.js and AI in Action
+						</h3>
+						<h4 className=" font-light text-md mb-4">
+						Technologies Used: Next.js, ChatGPT
+						</h4>
+						<p className="text-justify">
+						▪️Built the official website for IIMW 2025, Goa, India's first global music conference and showcase festival.<br/>
+						▪️Developed using Next.js for a modern, scalable, and dynamic user experience.<br/>
+						▪️Integrated AI tools to enhance the development process and deliver innovative features.<br/> 
+						▪️Deployed the website on Vercel to ensure optimal performance and accessibility.<br/>
+						▪️Vercel – Global accessibility and scalability.<br/> 
+						▪️Responsive – Optimized for all devices
+
+						</p>
+						<div className="flex flex-wrap gap-2 mt-4 text-sm">
+							<div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
+								Next.JS
+							</div>
+							<div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
+								ChatGPT
+							</div>
+					
+							<div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
+								Vercel
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className="grid gap-4 relative">
+					<div className="aspect-square w-5 bg-black rounded-full absolute left-0 translate-x-[-29.5px] z-10" />
+					<div className="font-medium text-lg">2024 - Present</div>
 					<div>
 						<h3 className="font-semibold text-xl text-black">
 						AI-Driven Food Website with Next.jsi

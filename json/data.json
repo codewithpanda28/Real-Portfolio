@@ -1,6 +1,26 @@
 {
   "Projects": [
     {
+      "title": "India's First Global Music Conference Website",
+      "desc": [
+        " Developed the official website for India's first global music conference and showcase festival, IIMW  an initiative by IMX. Built with Next.js and integrated AI tools for development, the website is deployed on Vercel, demonstrating advanced technical and creative skills. Ongoing updates are being made to refine the experience further."
+      ],
+      "year": "2024",
+      "preview": "https://mysite-tau-eight.vercel.app/",
+     
+      "images": [
+        "/projects/iimw/iimw1.png",
+        "/projects/iimw/iimw2.png",
+        "/projects/iimw/iimw3.png",
+        "/projects/iimw/iimw4.png"
+      ],
+      "tech": [
+        "NextJS",
+        "ChatGPT"
+      ], 
+      "slug": "trivia"
+    },
+    {
       "title": "To-Do & Note Web Apps",
       "desc": [
         " A suite of productivity web applications built with Next.js, designed to simplify task and note management. The To-Do Web App enables users to create, update, and delete tasks, while the Note Web App allows users to efficiently manage personal notes with features for adding, editing, and deleting content. Both apps are fully responsive, ensuring seamless functionality across devices. Developed with modern web technologies and deployed on Vercel, these projects highlight expertise in creating dynamic and user-friendly applications."

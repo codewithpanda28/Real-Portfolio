@@ -176,10 +176,10 @@ export default function Page() {
 							type: "spring",
 						}}>
 						<h2 className="text-2xl font-bold tracking-wider mb-3">
-						Task & Note Management Apps
+						IIMW 2025: Next.js Innovation Meets Music Excellence
 						</h2>
 						<p className="text-gray-600 text-justify title text-lg">
-						A suite of productivity <b> web applications built with Next.js,</b> designed to simplify task and note management. The <b> To-Do Web App enables users to create, update, and delete tasks,</b> while the <b> Note Web App allows users to efficiently manage personal notes with features for adding, editing, and deleting content.</b> Both apps are fully responsive, ensuring seamless functionality across devices. <b> Developed with modern web technologies and deployed on Vercel,</b> these projects highlight expertise in creating dynamic and user-friendly applications.
+						The official website for <b> "IIMW 2025, Goa," </b> India’s first global music conference and showcase festival, was <b> developed using Next.js to deliver a dynamic and responsive user experience.</b> Leveraging advanced AI tools during the development process, the website highlights innovative features and seamless functionality. <b> . Deployed on Vercel, the platform ensures top-tier performance, scalability, and accessibility for users worldwide.</b> This project not only showcases my technical expertise in modern web development but also reflects <b>  my ability to blend creativity with advanced tools to meet professional standards.</b> Updates are ongoing to enhance the website’s features and provide an exceptional digital experience for event visitors.
 						</p>{" "}
 						<div className="mt-3">
 							<Button variation="primary">
@@ -187,7 +187,7 @@ export default function Page() {
 							</Button>
 							<Button variation="secondary">
 								<a
-									href="https://next-tool-two.vercel.app/"
+									href="https://mysite-tau-eight.vercel.app/"
 									target="_blank"
 									rel="noopener noreferrer">
 									Preview

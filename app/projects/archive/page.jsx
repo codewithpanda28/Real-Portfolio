@@ -9,6 +9,13 @@ import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 const projects = [
 	{
 		year: "2024",
+		title: "India's First Global Music Conference Website",
+		tech: "NextJS, ChatGPT, TailwindCSS",
+		// github: "https://github.com/codewithpanda28/Next-Tool",
+		preview: "https://mysite-tau-eight.vercel.app/",
+	},
+	{
+		year: "2024",
 		title: "Task & Note Management Apps",
 		tech: "NextJS, ChatGPT, TailwindCSS, ShadcnUI",
 		github: "https://github.com/codewithpanda28/Next-Tool",
