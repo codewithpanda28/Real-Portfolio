@@ -18,6 +18,7 @@ import FixedButon from "@/components/FixedButton";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 
+
 const category = {
 	1: "Web Development",
 	
