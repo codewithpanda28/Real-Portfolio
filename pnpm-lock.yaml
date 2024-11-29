@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@fortawesome/fontawesome-svg-core':
-        specifier: ^6.4.2
-        version: 6.4.2
+        specifier: ^6.6.0
+        version: 6.7.1
       '@fortawesome/free-brands-svg-icons':
         specifier: ^6.4.2
         version: 6.4.2
@@ -18,11 +18,11 @@ importers:
         specifier: ^6.4.2
         version: 6.4.2
       '@fortawesome/free-solid-svg-icons':
-        specifier: ^6.4.2
-        version: 6.4.2
+        specifier: ^6.6.0
+        version: 6.7.1
       '@fortawesome/react-fontawesome':
-        specifier: ^0.2.0
-        version: 0.2.0(@fortawesome/fontawesome-svg-core@6.4.2)(react@18.2.0)
+        specifier: ^0.2.2
+        version: 0.2.2(@fortawesome/fontawesome-svg-core@6.7.1)(react@18.2.0)
       '@fullpage/react-fullpage':
         specifier: ^0.1.40
         version: 0.1.40
@@ -131,8 +131,12 @@ packages:
     resolution: {integrity: sha512-1DgP7f+XQIJbLFCTX1V2QnxVmpLdKdzzo2k8EmvDOePfchaIGQ9eCHj2up3/jNEbZuBqel5OxiaOJf37TWauRA==}
     engines: {node: '>=6'}
 
-  '@fortawesome/fontawesome-svg-core@6.4.2':
-    resolution: {integrity: sha512-gjYDSKv3TrM2sLTOKBc5rH9ckje8Wrwgx1CxAPbN5N3Fm4prfi7NsJVWd1jklp7i5uSCVwhZS5qlhMXqLrpAIg==}
+  '@fortawesome/fontawesome-common-types@6.7.1':
+    resolution: {integrity: sha512-gbDz3TwRrIPT3i0cDfujhshnXO9z03IT1UKRIVi/VEjpNHtSBIP2o5XSm+e816FzzCFEzAxPw09Z13n20PaQJQ==}
+    engines: {node: '>=6'}
+
+  '@fortawesome/fontawesome-svg-core@6.7.1':
+    resolution: {integrity: sha512-8dBIHbfsKlCk2jHQ9PoRBg2Z+4TwyE3vZICSnoDlnsHA6SiMlTwfmW6yX0lHsRmWJugkeb92sA0hZdkXJhuz+g==}
     engines: {node: '>=6'}
 
   '@fortawesome/free-brands-svg-icons@6.4.2':
@@ -143,12 +147,12 @@ packages:
     resolution: {integrity: sha512-0+sIUWnkgTVVXVAPQmW4vxb9ZTHv0WstOa3rBx9iPxrrrDH6bNLsDYuwXF9b6fGm+iR7DKQvQshUH/FJm3ed9Q==}
     engines: {node: '>=6'}
 
-  '@fortawesome/free-solid-svg-icons@6.4.2':
-    resolution: {integrity: sha512-sYwXurXUEQS32fZz9hVCUUv/xu49PEJEyUOsA51l6PU/qVgfbTb2glsTEaJngVVT8VqBATRIdh7XVgV1JF1LkA==}
+  '@fortawesome/free-solid-svg-icons@6.7.1':
+    resolution: {integrity: sha512-BTKc0b0mgjWZ2UDKVgmwaE0qt0cZs6ITcDgjrti5f/ki7aF5zs+N91V6hitGo3TItCFtnKg6cUVGdTmBFICFRg==}
     engines: {node: '>=6'}
 
-  '@fortawesome/react-fontawesome@0.2.0':
-    resolution: {integrity: sha512-uHg75Rb/XORTtVt7OS9WoK8uM276Ufi7gCzshVWkUJbHhh3svsUUeqXerrM96Wm7fRiDzfKRwSoahhMIkGAYHw==}
+  '@fortawesome/react-fontawesome@0.2.2':
+    resolution: {integrity: sha512-EnkrprPNqI6SXJl//m29hpaNzOp1bruISWaOiRtkMi/xSvHJlzc2j2JAYS7egxt/EbjSNV/k6Xy0AQI6vB2+1g==}
     peerDependencies:
       '@fortawesome/fontawesome-svg-core': ~1 || ~6
       react: '>=16.3'
@@ -1884,9 +1888,11 @@ snapshots:
 
   '@fortawesome/fontawesome-common-types@6.4.2': {}
 
-  '@fortawesome/fontawesome-svg-core@6.4.2':
+  '@fortawesome/fontawesome-common-types@6.7.1': {}
+
+  '@fortawesome/fontawesome-svg-core@6.7.1':
     dependencies:
-      '@fortawesome/fontawesome-common-types': 6.4.2
+      '@fortawesome/fontawesome-common-types': 6.7.1
 
   '@fortawesome/free-brands-svg-icons@6.4.2':
     dependencies:
@@ -1896,13 +1902,13 @@ snapshots:
     dependencies:
       '@fortawesome/fontawesome-common-types': 6.4.2
 
-  '@fortawesome/free-solid-svg-icons@6.4.2':
+  '@fortawesome/free-solid-svg-icons@6.7.1':
     dependencies:
-      '@fortawesome/fontawesome-common-types': 6.4.2
+      '@fortawesome/fontawesome-common-types': 6.7.1
 
-  '@fortawesome/react-fontawesome@0.2.0(@fortawesome/fontawesome-svg-core@6.4.2)(react@18.2.0)':
+  '@fortawesome/react-fontawesome@0.2.2(@fortawesome/fontawesome-svg-core@6.7.1)(react@18.2.0)':
     dependencies:
-      '@fortawesome/fontawesome-svg-core': 6.4.2
+      '@fortawesome/fontawesome-svg-core': 6.7.1
       prop-types: 15.8.1
       react: 18.2.0
 
@@ -2494,7 +2500,7 @@ snapshots:
       eslint: 8.48.0
       eslint-import-resolver-node: 0.3.9
       eslint-import-resolver-typescript: 3.6.0(@typescript-eslint/parser@6.5.0(eslint@8.48.0)(typescript@5.2.2))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.28.1(eslint@8.48.0))(eslint@8.48.0)
-      eslint-plugin-import: 2.28.1(@typescript-eslint/parser@6.5.0(eslint@8.48.0)(typescript@5.2.2))(eslint-import-resolver-typescript@3.6.0(@typescript-eslint/parser@6.5.0(eslint@8.48.0)(typescript@5.2.2))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.28.1(eslint@8.48.0))(eslint@8.48.0))(eslint@8.48.0)
+      eslint-plugin-import: 2.28.1(@typescript-eslint/parser@6.5.0(eslint@8.48.0)(typescript@5.2.2))(eslint-import-resolver-typescript@3.6.0)(eslint@8.48.0)
       eslint-plugin-jsx-a11y: 6.7.1(eslint@8.48.0)
       eslint-plugin-react: 7.33.2(eslint@8.48.0)
       eslint-plugin-react-hooks: 4.6.0(eslint@8.48.0)
@@ -2517,8 +2523,8 @@ snapshots:
       debug: 4.3.4
       enhanced-resolve: 5.15.0
       eslint: 8.48.0
-      eslint-module-utils: 2.8.0(@typescript-eslint/parser@6.5.0(eslint@8.48.0)(typescript@5.2.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.0(@typescript-eslint/parser@6.5.0(eslint@8.48.0)(typescript@5.2.2))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.28.1(eslint@8.48.0))(eslint@8.48.0))(eslint@8.48.0)
-      eslint-plugin-import: 2.28.1(@typescript-eslint/parser@6.5.0(eslint@8.48.0)(typescript@5.2.2))(eslint-import-resolver-typescript@3.6.0(@typescript-eslint/parser@6.5.0(eslint@8.48.0)(typescript@5.2.2))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.28.1(eslint@8.48.0))(eslint@8.48.0))(eslint@8.48.0)
+      eslint-module-utils: 2.8.0(@typescript-eslint/parser@6.5.0(eslint@8.48.0)(typescript@5.2.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.0)(eslint@8.48.0)
+      eslint-plugin-import: 2.28.1(@typescript-eslint/parser@6.5.0(eslint@8.48.0)(typescript@5.2.2))(eslint-import-resolver-typescript@3.6.0)(eslint@8.48.0)
       fast-glob: 3.3.1
       get-tsconfig: 4.7.0
       is-core-module: 2.13.0
@@ -2529,7 +2535,7 @@ snapshots:
       - eslint-import-resolver-webpack
       - supports-color
 
-  eslint-module-utils@2.8.0(@typescript-eslint/parser@6.5.0(eslint@8.48.0)(typescript@5.2.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.0(@typescript-eslint/parser@6.5.0(eslint@8.48.0)(typescript@5.2.2))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.28.1(eslint@8.48.0))(eslint@8.48.0))(eslint@8.48.0):
+  eslint-module-utils@2.8.0(@typescript-eslint/parser@6.5.0(eslint@8.48.0)(typescript@5.2.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.0)(eslint@8.48.0):
     dependencies:
       debug: 3.2.7
     optionalDependencies:
@@ -2540,7 +2546,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-import@2.28.1(@typescript-eslint/parser@6.5.0(eslint@8.48.0)(typescript@5.2.2))(eslint-import-resolver-typescript@3.6.0(@typescript-eslint/parser@6.5.0(eslint@8.48.0)(typescript@5.2.2))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.28.1(eslint@8.48.0))(eslint@8.48.0))(eslint@8.48.0):
+  eslint-plugin-import@2.28.1(@typescript-eslint/parser@6.5.0(eslint@8.48.0)(typescript@5.2.2))(eslint-import-resolver-typescript@3.6.0)(eslint@8.48.0):
     dependencies:
       array-includes: 3.1.6
       array.prototype.findlastindex: 1.2.2
@@ -2550,7 +2556,7 @@ snapshots:
       doctrine: 2.1.0
       eslint: 8.48.0
       eslint-import-resolver-node: 0.3.9
-      eslint-module-utils: 2.8.0(@typescript-eslint/parser@6.5.0(eslint@8.48.0)(typescript@5.2.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.0(@typescript-eslint/parser@6.5.0(eslint@8.48.0)(typescript@5.2.2))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.28.1(eslint@8.48.0))(eslint@8.48.0))(eslint@8.48.0)
+      eslint-module-utils: 2.8.0(@typescript-eslint/parser@6.5.0(eslint@8.48.0)(typescript@5.2.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.0)(eslint@8.48.0)
       has: 1.0.3
       is-core-module: 2.13.0
       is-glob: 4.0.3
