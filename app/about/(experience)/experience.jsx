@@ -13,7 +13,7 @@ export default function Experience() {
 						Technologies Used: Next.js, ChatGPT
 						</h4>
 						<p className="text-justify">
-						▪️Built the official website for IIMW 2025, Goa, India's first global music conference and showcase festival.<br/>
+						▪️Built the official website for IIMW 2025, Goa, India first global music conference and showcase festival.<br/>
 						▪️Developed using Next.js for a modern, scalable, and dynamic user experience.<br/>
 						▪️Integrated AI tools to enhance the development process and deliver innovative features.<br/> 
 						▪️Deployed the website on Vercel to ensure optimal performance and accessibility.<br/>
